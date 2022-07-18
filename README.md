@@ -1,13 +1,12 @@
 # ape-sandbox
 
-## History
+## Setup
 
-This is how this repo was first created and populated
-
-```
+```console
 python3 -m venv venv
 source venv/bin/activate
 pip install -U pip
-pip install eth-ape
-ape init
+pip install wheel
+pip install eth-ape ape-infura
+export WEB3_INFURA_PROJECT_ID=<YOUR_INFURA_PROJECT_ID>
 ```
